@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="flowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .stage-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #ffffff; }
+    .stage-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #94a3b8; line-height: 1.4; }
+    .stage-num { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 800; fill: #38bdf8; }
+    .arrow { stroke: #475569; stroke-width: 2; fill: none; stroke-linecap: round; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="1140" height="340" rx="14" fill="url(#flowBg)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Pipeline Header -->
+  <g transform="translate(40, 32)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#ffffff">
+      End-to-End Remediation &amp; Validation Pipeline
+    </text>
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#64748b">
+      Modular, decoupled architecture guaranteeing strict ISO 14289-1 &amp; WCAG 2.2 Level AA compliance
+    </text>
+  </g>
+
+  <!-- Connecting Flow Line with Glow -->
+  <path d="M 120 180 L 1020 180" stroke="#334155" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- Stage 1: Extraction -->
+  <g transform="translate(40, 95)">
+    <rect width="180" height="190" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#0369a1"/>
+    <text x="24" y="32" class="stage-num" fill="#bae6fd">01</text>
+    <text x="50" y="32" class="stage-title">Extraction</text>
+    <line x1="16" y1="52" x2="164" y2="52" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="75" class="stage-desc">• PyMuPDF layout parser</text>
+    <text x="16" y="97" class="stage-desc">• Font CMap ToUnicode</text>
+    <text x="16" y="119" class="stage-desc">• Word Calibri ligatures</text>
+    <text x="16" y="141" class="stage-desc">• Native MCID discovery</text>
+    <text x="16" y="163" class="stage-desc">• Tables, images, links</text>
+  </g>
+
+  <!-- Connector Arrow 1 -> 2 -->
+  <path d="M 226 185 L 244 185" class="arrow" stroke="#06b6d4" marker-end="url(#arrowhead)"/>
+  <polygon points="244,181 252,185 244,189" fill="#06b6d4"/>
+
+  <!-- Stage 2: AI Classification -->
+  <g transform="translate(258, 95)">
+    <rect width="180" height="190" rx="12" fill="#1e293b" stroke="#4f46e5" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#312e81"/>
+    <text x="24" y="32" class="stage-num" fill="#c7d2fe">02</text>
+    <text x="50" y="32" class="stage-title">Classification</text>
+    <line x1="16" y1="52" x2="164" y2="52" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="75" class="stage-desc">• Gemini Multimodal Vision</text>
+    <text x="16" y="97" class="stage-desc">• Structured JSON prompts</text>
+    <text x="16" y="119" class="stage-desc">• SHA-256 response cache</text>
+    <text x="16" y="141" class="stage-desc">• Offline heuristic fallback</text>
+    <text x="16" y="163" class="stage-desc">• Element bounding boxes</text>
+  </g>
+
+  <!-- Connector Arrow 2 -> 3 -->
+  <polygon points="444,181 452,185 444,189" fill="#6366f1"/>
+
+  <!-- Stage 3: Hierarchy Validation -->
+  <g transform="translate(458, 95)">
+    <rect width="180" height="190" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#065f46"/>
+    <text x="24" y="32" class="stage-num" fill="#a7f3d0">03</text>
+    <text x="50" y="32" class="stage-title">Validation</text>
+    <line x1="16" y1="52" x2="164" y2="52" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="75" class="stage-desc">• Single primary H1 title</text>
+    <text x="16" y="97" class="stage-desc">• Strict heading nesting</text>
+    <text x="16" y="119" class="stage-desc">• Sub-list LI containment</text>
+    <text x="16" y="141" class="stage-desc">• Table row/cell bounds</text>
+    <text x="16" y="163" class="stage-desc">• Contrast pre-check</text>
+  </g>
+
+  <!-- Connector Arrow 3 -> 4 -->
+  <polygon points="644,181 652,185 644,189" fill="#10b981"/>
+
+  <!-- Stage 4: Tag & MCID Injection -->
+  <g transform="translate(658, 95)">
+    <rect width="180" height="190" rx="12" fill="#1e293b" stroke="#059669" stroke-width="1.5"/>
+    <circle cx="28" cy="28" r="14" fill="#064e3b"/>
+    <text x="24" y="32" class="stage-num" fill="#6ee7b7">04</text>
+    <text x="50" y="32" class="stage-title">PDF/UA Inject</text>
+    <line x1="16" y1="52" x2="164" y2="52" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="75" class="stage-desc">• StructTreeRoot &amp; Part</text>
+    <text x="16" y="97" class="stage-desc">• Exact MCID canvas sync</text>
+    <text x="16" y="119" class="stage-desc">• ParentTree NumberTree</text>
+    <text x="16" y="141" class="stage-desc">• Link /OBJR &amp; Annot mapping</text>
+    <text x="16" y="163" class="stage-desc">• XMP PDF/UA-1 Schema</text>
+  </g>
+
+  <!-- Connector Arrow 4 -> 5 -->
+  <polygon points="844,181 852,185 844,189" fill="#10b981"/>
+
+  <!-- Stage 5: 19-Check Automated Audit -->
+  <g transform="translate(858, 95)">
+    <rect width="240" height="190" rx="12" fill="#022c22" stroke="#10b981" stroke-width="2"/>
+    <circle cx="28" cy="28" r="14" fill="#10b981"/>
+    <path d="M 23 28 L 27 32 L 34 24" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="50" y="32" class="stage-title" fill="#a7f3d0">19-Rule Audit</text>
+    <line x1="16" y1="52" x2="224" y2="52" stroke="#065f46" stroke-width="1"/>
+    <text x="16" y="75" class="stage-desc" fill="#e2e8f0">• 100% Automated Pass Rate</text>
+    <text x="16" y="97" class="stage-desc" fill="#e2e8f0">• WCAG 2.2 AA &amp; PDF/UA-1</text>
+    <text x="16" y="119" class="stage-desc" fill="#e2e8f0">• Interactive HTML diagnostics</text>
+    <text x="16" y="141" class="stage-desc" fill="#e2e8f0">• Machine-readable JSON</text>
+    <text x="16" y="163" class="stage-desc" fill="#e2e8f0">• Bookmarks &amp; Outline check</text>
+  </g>
+</svg>

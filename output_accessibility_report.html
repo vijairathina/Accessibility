@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Accessibility Diagnostic Report</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface-hover: #334155;
+            --border: rgba(255, 255, 255, 0.1);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --success: #10b981;
+            --error: #ef4444;
+            --warning: #f59e0b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            padding: 32px 16px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 1040px;
+            width: 100%;
+        }
+        .header {
+            background: linear-gradient(135deg, rgba(30,41,59,0.9), rgba(15,23,42,0.95));
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            backdrop-filter: blur(12px);
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .file-meta {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-top: 4px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .status-pill {
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            background: #10b98122;
+            color: #10b981;
+            border: 1px solid #10b981;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .compliance-box {
+            background: rgba(255,255,255,0.03);
+            border-left: 4px solid #10b981;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .metric-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 18px;
+            text-align: center;
+        }
+        .metric-val {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+        .metric-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th {
+            background: rgba(0,0,0,0.25);
+            padding: 14px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+        }
+        .notice-box {
+            margin-top: 24px;
+            padding: 16px 20px;
+            background: rgba(56, 189, 248, 0.08);
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            border-radius: 12px;
+            font-size: 0.85rem;
+            color: #93c5fd;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div>
+                    <h1>PDF Accessibility Diagnostic Report</h1>
+                    <div class="file-meta">Target: output.pdf | Timestamp: 2026-10-22T17:40:15.312388</div>
+                </div>
+                <div class="status-pill">PASS_AUTOMATED</div>
+            </div>
+            <div class="compliance-box">
+                <strong>Compliance Statement:</strong> Meets all automated PDF/UA-1 and WCAG 2.2 Level AA machine-verifiable requirements. Manual review of reading order and semantic alt-text descriptions is still required.
+            </div>
+        </div>
+
+        <div class="metrics">
+            <div class="metric-card">
+                <div class="metric-val" style="color: var(--accent);">19</div>
+                <div class="metric-label">Total Checks</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-val" style="color: var(--success);">19</div>
+                <div class="metric-label">Passed</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-val" style="color: var(--error);">0</div>
+                <div class="metric-label">Failed</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-val" style="color: var(--warning);">0</div>
+                <div class="metric-label">Warnings</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-val" style="color: #a78bfa;">100.0%</div>
+                <div class="metric-label">Automated Pass Rate</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 14%;">Check ID</th>
+                        <th style="width: 26%;">Accessibility Criterion</th>
+                        <th style="width: 12%;">Status</th>
+                        <th style="width: 48%;">Findings & Recommendations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-01</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Marked Content Flag<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.1 / ISO 32000-1 § 14.7</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>MarkInfo dictionary is present with Marked=True</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-02</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Logical Structure Tree Root<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.1 / WCAG 1.3.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>StructTreeRoot present with root structure elements</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-03</td>
+                <td style="padding: 12px 14px; font-weight: 600;">ParentTree Number Tree<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>ParentTree present in StructTreeRoot</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-3.1.1</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Primary Document Language<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 3.1.1 / PDF/UA-1 § 7.2</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Document language specified as 'en-US'</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-2.4.2a</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Display Document Title Preference<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 2.4.2 / PDF/UA-1 § 7.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>ViewerPreferences specifies DisplayDocTitle=True</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-2.4.2b</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Document Title Metadata<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 2.4.2 / PDF/UA-1 § 7.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Document title is set: 'Accessible PDF Demo Document'</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-04</td>
+                <td style="padding: 12px 14px; font-weight: 600;">PDF/UA-1 Identification Schema<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 5 / ISO 14289-1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>XMP metadata contains PDF/UA identifier (pdfuaid:part=1)</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-1.3.1-H1</td>
+                <td style="padding: 12px 14px; font-weight: 600;">H1 Primary Heading<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 1.3.1, 2.4.6 / PDF/UA-1 § 7.4.2</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Single H1 heading found: 'Accessible PDF Demo Document'</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-1.3.1-HJUMP</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Heading Level Hierarchy<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 1.3.1 / PDF/UA-1 § 7.4.2</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Heading levels follow a logical hierarchy (18 headings evaluated)</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-05-L</td>
+                <td style="padding: 12px 14px; font-weight: 600;">List Structure Specification<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.6 / WCAG 1.3.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>All list items properly enclosed in <L> elements (7 lists)</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-06-T</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Table Structure<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.5 / WCAG 1.3.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Table 1 properly structured with <TR>, <TH>, and <TD> (4 rows)</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-06-T</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Table Structure<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.5 / WCAG 1.3.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Table 2 properly structured with <TR>, <TH>, and <TD> (5 rows)</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-1.1.1</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Figure Alternative Text<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 1.1.1 / PDF/UA-1 § 7.3</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>All 8 <Figure> elements have descriptive alternative text</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-07-IMG</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Image Content Tagging<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.3 / ISO 14289-1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>All 8 image rendering operations are properly enclosed in marked content</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-08-SP</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Page StructParents Attribute<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>All 4 pages contain valid /StructParents attributes</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-2.4.5</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Document Bookmarks / Outlines<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 2.4.5 / PDF/UA-1 § 7.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Document contains navigation bookmarks matching section headings (18 items)</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-1.4.3</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Color Contrast Ratio<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 1.4.3</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>All text content meets or exceeds WCAG 2.2 AA contrast ratios against background</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">PDFUA-09-UNI</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Unicode Character Mapping & Ligatures<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">PDF/UA-1 § 7.2 / WCAG 1.3.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Text extraction confirmed valid Unicode mappings with no unmapped ligature artifacts</div>
+                    
+                    
+                </td>
+            </tr>
+            
+            <tr style="border-bottom: 1px solid rgba(255,255,255,0.07);">
+                <td style="padding: 12px 14px; font-family: monospace; font-size: 0.85rem; color: #93c5fd;">WCAG-4.1.2-FORM</td>
+                <td style="padding: 12px 14px; font-weight: 600;">Interactive Form Controls<br><span style="font-size: 0.75rem; color: #9ca3af; font-weight: normal;">WCAG 2.2 AA 4.1.2 / PDF/UA-1 § 7.18.1</span></td>
+                <td style="padding: 12px 14px;">
+                    <span style="display: inline-block; padding: 3px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; background: #10b98122; color: #10b981; border: 1px solid #10b981;">
+                        PASS
+                    </span>
+                </td>
+                <td style="padding: 12px 14px; font-size: 0.9rem; line-height: 1.4;">
+                    <div>Document contains no interactive form fields (check not applicable)</div>
+                    
+                    
+                </td>
+            </tr>
+            
+                </tbody>
+            </table>
+        </div>
+
+        <div class="notice-box">
+            <strong>Standards Scope & Verification Methodology:</strong> This report evaluates conformity with 
+            <strong>PDF/UA-1 (ISO 14289-1)</strong> and applicable machine-testable requirements of 
+            <strong>WCAG 2.2 Level AA</strong>. Full end-user accessibility verification requires both automated validation 
+            and manual evaluation with assistive technologies (NVDA, JAWS, VoiceOver) to confirm reading order nuance and descriptive quality.
+        </div>
+    </div>
+</body>
+</html>

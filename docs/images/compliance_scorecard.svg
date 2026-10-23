@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="scoreBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" rx="14" fill="url(#scoreBg)" stroke="#10b981" stroke-width="1.5"/>
+
+  <!-- Left Stats Block -->
+  <g transform="translate(50, 45)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#34d399" letter-spacing="1">AUDIT SUMMARY</text>
+    <text y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="64" font-weight="900" fill="#ffffff">100<tspan font-size="36" fill="#34d399">%</tspan></text>
+    <text y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#cbd5e1">19 of 19 Checks Passed</text>
+    <rect y="125" width="160" height="32" rx="8" fill="#065f46"/>
+    <text x="16" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#a7f3d0">PASS_AUTOMATED</text>
+    <text y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">Evaluated against WCAG 2.2 AA &amp; PDF/UA-1</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="330" y1="35" x2="330" y2="245" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Right Matrix of Evaluated Checks -->
+  <g transform="translate(365, 40)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#e2e8f0" letter-spacing="0.5">CORE COMPLIANCE CRITERIA</text>
+
+    <!-- Column 1 -->
+    <g transform="translate(0, 30)">
+      <g transform="translate(0, 0)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">MarkInfo /Marked: true</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">PDFUA-01</text>
+      </g>
+      <g transform="translate(0, 32)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">StructTreeRoot &amp; Document</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">PDFUA-02</text>
+      </g>
+      <g transform="translate(0, 64)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">ParentTree NumberTree</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">PDFUA-03</text>
+      </g>
+      <g transform="translate(0, 96)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">PDF/UA XMP Schema</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">PDFUA-04</text>
+      </g>
+      <g transform="translate(0, 128)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">H1 Primary Doc Title</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">WCAG-1.3.1</text>
+      </g>
+    </g>
+
+    <!-- Column 2 -->
+    <g transform="translate(305, 30)">
+      <g transform="translate(0, 0)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">Heading Level Hierarchy</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">WCAG-1.3.1</text>
+      </g>
+      <g transform="translate(0, 32)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">&lt;L&gt; &lt;LI&gt; List Specification</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">PDFUA-05</text>
+      </g>
+      <g transform="translate(0, 64)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">&lt;Table&gt; &lt;TH&gt; /Scope</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">PDFUA-06</text>
+      </g>
+      <g transform="translate(0, 96)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">Figure Alternative Text</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">WCAG-1.1.1</text>
+      </g>
+      <g transform="translate(0, 128)">
+        <circle cx="8" cy="8" r="6" fill="#10b981"/>
+        <text x="22" y="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#ffffff">Bookmarks / Outlines</text>
+        <text x="200" y="12" font-family="monospace" font-size="11" fill="#38bdf8">WCAG-2.4.5</text>
+      </g>
+    </g>
+  </g>
+</svg>

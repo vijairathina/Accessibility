@@ -1,0 +1,1020 @@
+{
+  "input_pdf": "input.pdf",
+  "output_pdf": "output.pdf",
+  "processing_summary": {
+    "total_blocks": 62,
+    "tables": 2,
+    "images": 8,
+    "links": 2,
+    "pages": 4
+  },
+  "classification": {
+    "total_blocks": 62,
+    "titles": 1,
+    "heading2": 5,
+    "heading3": 8,
+    "heading4": 4,
+    "bodies": 15,
+    "list_items": 23,
+    "tables": 2,
+    "figures": 0,
+    "captions": 4,
+    "unverified": 60
+  },
+  "tag_metadata": {
+    "pdf_tags": [
+      {
+        "block_id": "b1",
+        "tag": "title",
+        "pdf_tag": "/H1",
+        "page": 1,
+        "bbox": [
+          66.0,
+          75.02,
+          422.3,
+          109.24
+        ],
+        "mcid_count": 1,
+        "text": "Accessible PDF Demo Document"
+      },
+      {
+        "block_id": "b2",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 1,
+        "bbox": [
+          66.0,
+          122.93,
+          544.87,
+          182.47
+        ],
+        "mcid_count": 1,
+        "text": "This document has been created to demo tagging lists, artifa"
+      },
+      {
+        "block_id": "b3",
+        "tag": "heading2",
+        "pdf_tag": "/H2",
+        "page": 1,
+        "bbox": [
+          66.0,
+          194.39,
+          97.29,
+          213.95
+        ],
+        "mcid_count": 1,
+        "text": "Lists"
+      },
+      {
+        "block_id": "b4",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 1,
+        "bbox": [
+          66.0,
+          213.05,
+          490.21,
+          229.1
+        ],
+        "mcid_count": 1,
+        "text": "When creating lists, the list style in Word should be used. "
+      },
+      {
+        "block_id": "b5",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 1,
+        "bbox": [
+          66.0,
+          234.56,
+          124.45,
+          250.46
+        ],
+        "mcid_count": 1,
+        "text": "Simple List"
+      },
+      {
+        "block_id": "b6",
+        "tag": "heading4",
+        "pdf_tag": "/H4",
+        "page": 1,
+        "bbox": [
+          66.0,
+          252.46,
+          296.23,
+          267.11
+        ],
+        "mcid_count": 1,
+        "text": "List of Canadian Provinces by Population (2014)"
+      },
+      {
+        "block_id": "b7",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          266.21,
+          172.33,
+          282.26
+        ],
+        "mcid_count": 1,
+        "text": "1. Ontario"
+      },
+      {
+        "block_id": "b8",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          280.85,
+          172.99,
+          296.9
+        ],
+        "mcid_count": 1,
+        "text": "2. Quebec"
+      },
+      {
+        "block_id": "b9",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          295.49,
+          215.35,
+          311.54
+        ],
+        "mcid_count": 1,
+        "text": "3. British Columbia"
+      },
+      {
+        "block_id": "b10",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          310.13,
+          171.07,
+          326.18
+        ],
+        "mcid_count": 1,
+        "text": "4. Alberta"
+      },
+      {
+        "block_id": "b11",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          324.83,
+          182.65,
+          340.88
+        ],
+        "mcid_count": 1,
+        "text": "5. Manitoba"
+      },
+      {
+        "block_id": "b12",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          339.47,
+          203.83,
+          355.52
+        ],
+        "mcid_count": 1,
+        "text": "6. Saskatchewan"
+      },
+      {
+        "block_id": "b13",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          354.11,
+          192.31,
+          370.16
+        ],
+        "mcid_count": 1,
+        "text": "7. Nova Scotia"
+      },
+      {
+        "block_id": "b14",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          368.75,
+          210.07,
+          384.8
+        ],
+        "mcid_count": 1,
+        "text": "8. New Brunswick"
+      },
+      {
+        "block_id": "b15",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          117.84,
+          383.39,
+          307.51,
+          399.44
+        ],
+        "mcid_count": 1,
+        "text": "9. Newfoundland and Labrador Prince"
+      },
+      {
+        "block_id": "b16",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 1,
+        "bbox": [
+          66.0,
+          404.9,
+          137.59,
+          420.8
+        ],
+        "mcid_count": 1,
+        "text": "Complex List"
+      },
+      {
+        "block_id": "b17",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 1,
+        "bbox": [
+          66.0,
+          419.93,
+          530.11,
+          465.26
+        ],
+        "mcid_count": 1,
+        "text": "For our purposes a complex list is one with sub-bullets or i"
+      },
+      {
+        "block_id": "b18",
+        "tag": "heading4",
+        "pdf_tag": "/H4",
+        "page": 1,
+        "bbox": [
+          66.0,
+          481.36,
+          357.43,
+          496.01
+        ],
+        "mcid_count": 1,
+        "text": "Some Adobe Creative Cloud Desktop Apps with Descriptions"
+      },
+      {
+        "block_id": "b19",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          89.94,
+          495.17,
+          527.29,
+          525.86
+        ],
+        "mcid_count": 1,
+        "text": "• Adobe Acrobat is a software family dedicated to Adobe's Po"
+      },
+      {
+        "block_id": "b20",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          125.94,
+          524.45,
+          293.41,
+          544.23
+        ],
+        "mcid_count": 1,
+        "text": "o Acrobat Pro DC Classic release"
+      },
+      {
+        "block_id": "b21",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          125.94,
+          539.09,
+          278.95,
+          558.87
+        ],
+        "mcid_count": 1,
+        "text": "o Acrobat Pro DC Continuous"
+      },
+      {
+        "block_id": "b22",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 1,
+        "bbox": [
+          108.0,
+          553.73,
+          435.85,
+          569.78
+        ],
+        "mcid_count": 1,
+        "text": "Adobe Reader is an applica tion that allows the reading of P"
+      },
+      {
+        "block_id": "b23",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          89.94,
+          568.37,
+          530.06,
+          599.12
+        ],
+        "mcid_count": 1,
+        "text": "• Adobe After Effects is a digital motion graphics and compo"
+      },
+      {
+        "block_id": "b24",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          89.94,
+          597.71,
+          544.51,
+          672.32
+        ],
+        "mcid_count": 2,
+        "text": "• Adobe Animate is a vector anima tion software used to desi"
+      },
+      {
+        "block_id": "b25",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          125.94,
+          670.91,
+          545.77,
+          730.94
+        ],
+        "mcid_count": 1,
+        "text": "o Adobe Flash Builder, formerly Adobe Flex Builder, is an in"
+      },
+      {
+        "block_id": "b26",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          125.94,
+          729.53,
+          379.21,
+          749.31
+        ],
+        "mcid_count": 1,
+        "text": "o Adobe Scout, a profiling tool for Flash SWF files."
+      },
+      {
+        "block_id": "b27",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 1,
+        "bbox": [
+          89.94,
+          744.17,
+          320.05,
+          760.22
+        ],
+        "mcid_count": 1,
+        "text": "• Adobe Bridge is an organizational program."
+      },
+      {
+        "block_id": "b28",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 2,
+        "bbox": [
+          108.0,
+          74.09,
+          515.05,
+          104.78
+        ],
+        "mcid_count": 1,
+        "text": "Its primary purpose is to link the parts of the Creative Sui"
+      },
+      {
+        "block_id": "b29",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 2,
+        "bbox": [
+          89.94,
+          103.37,
+          480.37,
+          134.06
+        ],
+        "mcid_count": 1,
+        "text": "• Adobe Photoshop is a raster-graphics editor (with signific"
+      },
+      {
+        "block_id": "b30",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 2,
+        "bbox": [
+          125.94,
+          132.71,
+          490.39,
+          152.49
+        ],
+        "mcid_count": 1,
+        "text": "o Adobe Photoshop Lightroom is a photo processor and image o"
+      },
+      {
+        "block_id": "b31",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 2,
+        "bbox": [
+          89.94,
+          147.35,
+          538.33,
+          178.04
+        ],
+        "mcid_count": 1,
+        "text": "• Adobe Premiere Pro is a real- time, timeline -based video "
+      },
+      {
+        "block_id": "b32",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 2,
+        "bbox": [
+          125.94,
+          176.63,
+          391.39,
+          196.41
+        ],
+        "mcid_count": 1,
+        "text": "o Adobe Media Encoder, a tool to output video files."
+      },
+      {
+        "block_id": "b33",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 2,
+        "bbox": [
+          125.94,
+          191.27,
+          531.01,
+          221.96
+        ],
+        "mcid_count": 1,
+        "text": "o Adobe Prelude, a tool for importing (ingesting), reviewing"
+      },
+      {
+        "block_id": "b34",
+        "tag": "list_item",
+        "pdf_tag": "/LI",
+        "page": 2,
+        "bbox": [
+          125.94,
+          220.55,
+          538.45,
+          251.3
+        ],
+        "mcid_count": 1,
+        "text": "o Adobe SpeedGrade, a tool for performing color corrections "
+      },
+      {
+        "block_id": "b35",
+        "tag": "heading2",
+        "pdf_tag": "/H2",
+        "page": 2,
+        "bbox": [
+          66.0,
+          262.73,
+          123.02,
+          282.29
+        ],
+        "mcid_count": 1,
+        "text": "Artifacts"
+      },
+      {
+        "block_id": "b36",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 2,
+        "bbox": [
+          66.0,
+          281.39,
+          529.69,
+          326.72
+        ],
+        "mcid_count": 1,
+        "text": "According to the PDF/UA ISO standard, content that does not "
+      },
+      {
+        "block_id": "b37",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 2,
+        "bbox": [
+          66.0,
+          340.01,
+          505.63,
+          370.7
+        ],
+        "mcid_count": 1,
+        "text": "Additionally, because they are not considered real content, "
+      },
+      {
+        "block_id": "b38",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 2,
+        "bbox": [
+          66.0,
+          383.93,
+          541.45,
+          429.26
+        ],
+        "mcid_count": 1,
+        "text": "One common error in a Word document is to use blank lines to"
+      },
+      {
+        "block_id": "b39",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 2,
+        "bbox": [
+          66.0,
+          442.55,
+          546.67,
+          517.16
+        ],
+        "mcid_count": 1,
+        "text": "Another element that the author may decide to tag as an ar t"
+      },
+      {
+        "block_id": "b40",
+        "tag": "caption",
+        "pdf_tag": "/Caption",
+        "page": 2,
+        "bbox": [
+          66.0,
+          638.27,
+          243.43,
+          653.89
+        ],
+        "mcid_count": 1,
+        "text": "Figure 1: My dog with his goofy grin"
+      },
+      {
+        "block_id": "img_Im0_p2",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 2,
+        "bbox": [
+          66.0,
+          659.83,
+          198.0,
+          758.83
+        ],
+        "text": "Photograph of a neighbor cat peeking over a wooden fence to visit"
+      },
+      {
+        "block_id": "img_Im1_p2",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 2,
+        "bbox": [
+          72.0,
+          540.09,
+          133.25,
+          624.5
+        ],
+        "text": "Photograph of a happy dog smiling with a goofy grin looking directly into camera"
+      },
+      {
+        "block_id": "b45",
+        "tag": "caption",
+        "pdf_tag": "/Caption",
+        "page": 3,
+        "bbox": [
+          66.0,
+          74.09,
+          258.79,
+          89.71
+        ],
+        "mcid_count": 1,
+        "text": "Figure 2: A new neighbor comes to visit"
+      },
+      {
+        "block_id": "b46",
+        "tag": "heading2",
+        "pdf_tag": "/H2",
+        "page": 3,
+        "bbox": [
+          66.0,
+          116.27,
+          109.57,
+          135.83
+        ],
+        "mcid_count": 1,
+        "text": "Tables"
+      },
+      {
+        "block_id": "b47",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 3,
+        "bbox": [
+          66.0,
+          134.93,
+          529.87,
+          194.9
+        ],
+        "mcid_count": 1,
+        "text": "It is possible when authoring tables in Word to indicate the"
+      },
+      {
+        "block_id": "b48",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 3,
+        "bbox": [
+          66.0,
+          200.36,
+          134.41,
+          216.26
+        ],
+        "mcid_count": 1,
+        "text": "Simple Table"
+      },
+      {
+        "block_id": "b49",
+        "tag": "heading4",
+        "pdf_tag": "/H4",
+        "page": 3,
+        "bbox": [
+          66.0,
+          215.39,
+          230.53,
+          231.44
+        ],
+        "mcid_count": 1,
+        "text": "Vehicles Sold by Model and Color"
+      },
+      {
+        "block_id": "tbl_p3_1",
+        "tag": "table",
+        "pdf_tag": "/Table",
+        "page": 3,
+        "bbox": [
+          72.78,
+          245.95,
+          316.06,
+          306.47
+        ],
+        "text": "Color SUVs Sedans Trucks | Ruby Red 4 4 5 | Midnight Black 7 5 5 | Triple Yellow"
+      },
+      {
+        "block_id": "b50",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 3,
+        "bbox": [
+          66.0,
+          323.3,
+          144.6,
+          339.2
+        ],
+        "mcid_count": 1,
+        "text": "Complex Table"
+      },
+      {
+        "block_id": "b51",
+        "tag": "heading4",
+        "pdf_tag": "/H4",
+        "page": 3,
+        "bbox": [
+          66.0,
+          338.27,
+          174.49,
+          354.32
+        ],
+        "mcid_count": 1,
+        "text": "Sales Results for 2015"
+      },
+      {
+        "block_id": "tbl_p3_2",
+        "tag": "table",
+        "pdf_tag": "/Table",
+        "page": 3,
+        "bbox": [
+          72.78,
+          368.73,
+          541.36,
+          459.14
+        ],
+        "text": "Salesperson 1st Quarter 2015 2nd Quarter 2015 3rd Quarter 2015 4th Quarter 2015 "
+      },
+      {
+        "block_id": "b52",
+        "tag": "heading2",
+        "pdf_tag": "/H2",
+        "page": 3,
+        "bbox": [
+          66.0,
+          487.79,
+          103.27,
+          503.84
+        ],
+        "mcid_count": 1,
+        "text": "Images"
+      },
+      {
+        "block_id": "b53",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 3,
+        "bbox": [
+          66.0,
+          502.43,
+          155.29,
+          518.48
+        ],
+        "mcid_count": 1,
+        "text": "Photos of Sunsets"
+      },
+      {
+        "block_id": "img_Im0_p3",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 3,
+        "bbox": [
+          218.4,
+          527.78,
+          325.95,
+          605.18
+        ],
+        "text": "Scenic photo of a golden sunset with sun reflecting over the ocean waves"
+      },
+      {
+        "block_id": "img_Im1_p3",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 3,
+        "bbox": [
+          72.0,
+          628.83,
+          185.35,
+          704.92
+        ],
+        "text": "Scenic photo of a warm orange sunset behind dark clouds over the water"
+      },
+      {
+        "block_id": "img_Im2_p3",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 3,
+        "bbox": [
+          216.0,
+          628.83,
+          329.35,
+          704.92
+        ],
+        "text": "Scenic photo of a vivid pink and purple dusk sky over a calm lake"
+      },
+      {
+        "block_id": "img_Im3_p3",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 3,
+        "bbox": [
+          72.0,
+          529.13,
+          185.35,
+          605.22
+        ],
+        "text": "Scenic photo of a red horizon sunset with silhouette of trees and water"
+      },
+      {
+        "block_id": "b58",
+        "tag": "heading2",
+        "pdf_tag": "/H2",
+        "page": 4,
+        "bbox": [
+          72.0,
+          98.63,
+          107.24,
+          118.19
+        ],
+        "mcid_count": 1,
+        "text": "Links"
+      },
+      {
+        "block_id": "b59",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 4,
+        "bbox": [
+          72.0,
+          117.29,
+          540.43,
+          206.54
+        ],
+        "mcid_count": 3,
+        "text": "There are three ways in which links are indicated within a d"
+      },
+      {
+        "block_id": "b60",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 4,
+        "bbox": [
+          72.0,
+          222.68,
+          184.08,
+          238.58
+        ],
+        "mcid_count": 1,
+        "text": "Embedded Hyperlink"
+      },
+      {
+        "block_id": "b61",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 4,
+        "bbox": [
+          72.0,
+          237.65,
+          526.33,
+          253.7
+        ],
+        "mcid_count": 3,
+        "text": "Check out our Adobe accessibility website for more informati"
+      },
+      {
+        "block_id": "b62",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 4,
+        "bbox": [
+          72.0,
+          269.9,
+          152.95,
+          285.8
+        ],
+        "mcid_count": 1,
+        "text": "Shortened URL"
+      },
+      {
+        "block_id": "b63",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 4,
+        "bbox": [
+          72.0,
+          284.87,
+          389.29,
+          300.92
+        ],
+        "mcid_count": 1,
+        "text": "For more information on accessibility at Adobe click on the "
+      },
+      {
+        "block_id": "b64",
+        "tag": "heading3",
+        "pdf_tag": "/H3",
+        "page": 4,
+        "bbox": [
+          72.0,
+          317.06,
+          117.0,
+          332.96
+        ],
+        "mcid_count": 1,
+        "text": "Full URL"
+      },
+      {
+        "block_id": "b65",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 4,
+        "bbox": [
+          72.0,
+          332.03,
+          484.87,
+          348.08
+        ],
+        "mcid_count": 3,
+        "text": "Go to http://www.adobe.com/accessibility for more informatio"
+      },
+      {
+        "block_id": "b66",
+        "tag": "body",
+        "pdf_tag": "/P",
+        "page": 4,
+        "bbox": [
+          72.0,
+          361.31,
+          524.65,
+          392.0
+        ],
+        "mcid_count": 1,
+        "text": "A correctly tagged link has the <Link> tag, text associated "
+      },
+      {
+        "block_id": "b67",
+        "tag": "caption",
+        "pdf_tag": "/Caption",
+        "page": 4,
+        "bbox": [
+          108.0,
+          489.47,
+          480.37,
+          505.09
+        ],
+        "mcid_count": 1,
+        "text": "Figure 1: Link tagged in the order of <Link> tag, link text,"
+      },
+      {
+        "block_id": "b68",
+        "tag": "caption",
+        "pdf_tag": "/Caption",
+        "page": 4,
+        "bbox": [
+          108.0,
+          621.23,
+          483.49,
+          636.85
+        ],
+        "mcid_count": 1,
+        "text": "Figure 2:: Link tagged in the order of <Link> tag, Link - OB"
+      },
+      {
+        "block_id": "img_Im0_p4",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 4,
+        "bbox": [
+          108.0,
+          399.62,
+          237.23,
+          475.72
+        ],
+        "text": "Diagram illustrating PDF structure tags for link in order: Link tag, link text, and Link-OBJR tag"
+      },
+      {
+        "block_id": "img_Im1_p4",
+        "tag": "figure",
+        "pdf_tag": "/Figure",
+        "page": 4,
+        "bbox": [
+          108.0,
+          515.57,
+          238.45,
+          592.81
+        ],
+        "text": "Diagram illustrating PDF structure tags for link in order: Link tag, Link-OBJR tag, and link text"
+      }
+    ],
+    "total_tags": 70,
+    "tag_distribution": {
+      "/H1": 1,
+      "/P": 15,
+      "/H2": 5,
+      "/H3": 8,
+      "/H4": 4,
+      "/LI": 23,
+      "/Caption": 4,
+      "/Figure": 8,
+      "/Table": 2
+    },
+    "accessibility": "WCAG 2.2 AA / PDF/UA-1 Compliant Structure Tree Injected"
+  },
+  "accessibility_audit": {
+    "automated_status": "PASS_AUTOMATED",
+    "compliance_rate": 100.0,
+    "passed": 19,
+    "failed": 0,
+    "warnings": 0,
+    "report_json": "output_accessibility_report.json",
+    "report_html": "output_accessibility_report.html"
+  }
+}

@@ -1,0 +1,95 @@
+# ==============================================================================
+# Environment & Secrets
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Python Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Python Bytecode & Caches
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==============================================================================
+# IDE & Operating System Files
+# ==============================================================================
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# Execution Logs & Diagnostics
+# ==============================================================================
+*_logs/
+*.log
+ai_summary_out.txt
+debug_output.txt
+debug_tagger.txt
+tags_output.txt
+
+# ==============================================================================
+# Legacy / Scratch Folders
+# ==============================================================================
+Old/
+ps-warung-system/
+scratch/
+
+# ==============================================================================
+# Temporary / Scratch Python Scripts
+# ==============================================================================
+check_*.py
+debug_*.py
+verify_*.py
+fix_*.py
+apply_*.py
+experiment_*.py
+inspect_structure.py
+read_ai_summary.py
+test.py
+test_extract.py
+test_extraction.py
+test_matching.py
+test_matching_native.py
+test_models.py
+test_output_new.py
+test_enriched.py
+test_tagger_mapping.py
+
+# ==============================================================================
+# Intermediate & Transient Output Files
+# ==============================================================================
+output_*.*
+!output_accessibility_report.html
+!output_accessibility_report.json
+output - Copy.pdf
+pdf_tagger_backup.pdf
+test_fitz_toc.pdf
+tagged_sample*
+sample_tags*
+tagging_test_results.json
+baseline_input*
+test_output*

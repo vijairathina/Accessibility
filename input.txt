@@ -1,0 +1,423 @@
+Extracted Text from: input.pdf
+================================================================================
+
+--- Block 1 (ID: b1) ---
+Page: 1
+Font Size: 28.02
+BBox: [66.0, 75.02, 422.3, 109.24]
+Text:
+Accessible PDF Demo Document
+--------------------------------------------------------------------------------
+--- Block 2 (ID: b2) ---
+Page: 1
+Font Size: 12.0
+BBox: [66.0, 122.93, 544.87, 182.47]
+Text:
+This document has been created to demo tagging lists, artifacts, tables, links, and images, and is not meant to address all the requirements needed for a PDF to be compliant with WCAG 2.1 or ISO 14289-1 (PDF/UA-1).  Please independently review or seek independent counsel to review and identify the relevant requirements of accessibility standards that may apply in your use case.
+--------------------------------------------------------------------------------
+--- Block 3 (ID: b3) ---
+Page: 1
+Font Size: 16.02
+BBox: [66.0, 194.39, 97.29, 213.95]
+Text:
+Lists
+--------------------------------------------------------------------------------
+--- Block 4 (ID: b4) ---
+Page: 1
+Font Size: 12.0
+BBox: [66.0, 213.05, 490.21, 229.1]
+Text:
+When crea Ɵng lists, the list style in Word should be used. Below is a sample simple list.
+--------------------------------------------------------------------------------
+--- Block 5 (ID: b5) ---
+Page: 1
+Font Size: 13.02
+BBox: [66.0, 234.56, 124.45, 250.46]
+Text:
+Simple List
+--------------------------------------------------------------------------------
+--- Block 6 (ID: b6) ---
+Page: 1
+Font Size: 12.0
+BBox: [66.0, 252.46, 296.23, 267.11]
+Text:
+List of Canadian Provinces by Popula Ɵon (2014)
+--------------------------------------------------------------------------------
+--- Block 7 (ID: b7) ---
+Page: 1
+Font Size: 10.8
+BBox: [117.84, 266.21, 172.33, 282.26]
+Text:
+1. Ontario
+--------------------------------------------------------------------------------
+--- Block 8 (ID: b8) ---
+Page: 1
+Font Size: 10.8
+BBox: [117.84, 280.85, 172.99, 296.9]
+Text:
+2. Quebec
+--------------------------------------------------------------------------------
+--- Block 9 (ID: b9) ---
+Page: 1
+Font Size: 11.2
+BBox: [117.84, 295.49, 215.35, 311.54]
+Text:
+3. Bri Ɵsh Columbia
+--------------------------------------------------------------------------------
+--- Block 10 (ID: b10) ---
+Page: 1
+Font Size: 10.8
+BBox: [117.84, 310.13, 171.07, 326.18]
+Text:
+4. Alberta
+--------------------------------------------------------------------------------
+--- Block 11 (ID: b11) ---
+Page: 1
+Font Size: 10.8
+BBox: [117.84, 324.83, 182.65, 340.88]
+Text:
+5. Manitoba
+--------------------------------------------------------------------------------
+--- Block 12 (ID: b12) ---
+Page: 1
+Font Size: 10.8
+BBox: [117.84, 339.47, 203.83, 355.52]
+Text:
+6. Saskatchewan
+--------------------------------------------------------------------------------
+--- Block 13 (ID: b13) ---
+Page: 1
+Font Size: 11.2
+BBox: [117.84, 354.11, 192.31, 370.16]
+Text:
+7. Nova Sco Ɵa
+--------------------------------------------------------------------------------
+--- Block 14 (ID: b14) ---
+Page: 1
+Font Size: 10.8
+BBox: [117.84, 368.75, 210.07, 384.8]
+Text:
+8. New Brunswick
+--------------------------------------------------------------------------------
+--- Block 15 (ID: b15) ---
+Page: 1
+Font Size: 10.8
+BBox: [117.84, 383.39, 307.51, 399.44]
+Text:
+9. Newfoundland and Labrador Prince
+--------------------------------------------------------------------------------
+--- Block 16 (ID: b16) ---
+Page: 1
+Font Size: 13.02
+BBox: [66.0, 404.9, 137.59, 420.8]
+Text:
+Complex List
+--------------------------------------------------------------------------------
+--- Block 17 (ID: b17) ---
+Page: 1
+Font Size: 12.0
+BBox: [66.0, 419.93, 530.11, 465.26]
+Text:
+For our purposes a complex list is one with sub-bullets or items. This example also includes mul Ɵple paragraphs within a single bullet. The tag tree will be much deeper for this type of list. This would be true whether it is a numbered list or a bulleted list. For example:
+--------------------------------------------------------------------------------
+--- Block 18 (ID: b18) ---
+Page: 1
+Font Size: 12.0
+BBox: [66.0, 481.36, 357.43, 496.01]
+Text:
+Some Adobe Crea Ɵve Cloud Desktop Apps with DescripƟons
+--------------------------------------------------------------------------------
+--- Block 19 (ID: b19) ---
+Page: 1
+Font Size: 12.14
+BBox: [89.94, 495.17, 527.29, 525.86]
+Text:
+• Adobe Acrobat is a so Ōware family dedicated to Adobe's Portable Document Format (PDF). There are two releases of Adobe Acrobat that support the creaƟon of PDF ﬁles:
+--------------------------------------------------------------------------------
+--- Block 20 (ID: b20) ---
+Page: 1
+Font Size: 11.49
+BBox: [125.94, 524.45, 293.41, 544.23]
+Text:
+o Acrobat Pro DC Classic release
+--------------------------------------------------------------------------------
+--- Block 21 (ID: b21) ---
+Page: 1
+Font Size: 11.8
+BBox: [108.0, 539.09, 435.85, 569.78]
+Text:
+o Acrobat Pro DC Con Ɵnuous Adobe Reader is an applica Ɵon that allows the reading of PDF ﬁles.
+--------------------------------------------------------------------------------
+--- Block 22 (ID: b22) ---
+Page: 1
+Font Size: 12.09
+BBox: [89.94, 568.37, 530.06, 599.12]
+Text:
+• Adobe A Ōer Eﬀects is a digital moƟon graphics and composiƟng soŌware published by Adobe Systems. It is oŌen used in ﬁlm and video post -produc Ɵon.
+--------------------------------------------------------------------------------
+--- Block 23 (ID: b23) ---
+Page: 1
+Font Size: 12.07
+BBox: [89.94, 597.71, 544.51, 672.32]
+Text:
+• Adobe Animate is a vector anima Ɵon soŌware used to design interacƟve animaƟons with drawing tools to publish them on mulƟple plaƞorms like Adobe Flash, Adobe AIR, HTML5 canvas, WebGL. It is the successor to Adobe Flash Professional and also includes features of Adobe Edge, which is discon Ɵnued.
+--------------------------------------------------------------------------------
+--- Block 24 (ID: b24) ---
+Page: 1
+Font Size: 11.87
+BBox: [125.94, 670.91, 545.77, 730.94]
+Text:
+o Adobe Flash Builder, formerly Adobe Flex Builder, is an integrated development environment (IDE) built on the Eclipse pla ƞorm meant for developing rich Internet applicaƟons (RIAs) and cross -pla ƞorm desktop applicaƟons for the Adobe Flash plaƞorm.
+--------------------------------------------------------------------------------
+--- Block 25 (ID: b25) ---
+Page: 1
+Font Size: 11.49
+BBox: [125.94, 729.53, 379.21, 749.31]
+Text:
+o Adobe Scout, a proﬁling tool for Flash SWF ﬁles.
+--------------------------------------------------------------------------------
+--- Block 26 (ID: b26) ---
+Page: 1
+Font Size: 12.19
+BBox: [89.94, 744.17, 320.05, 760.22]
+Text:
+• Adobe Bridge is an organiza Ɵonal program.
+--------------------------------------------------------------------------------
+--- Block 27 (ID: b27) ---
+Page: 2
+Font Size: 12.0
+BBox: [108.0, 74.09, 515.05, 104.78]
+Text:
+Its primary purpose is to link the parts of the Crea Ɵve Suite together using a format similar to the ﬁle browser found in previous versions of Adobe Photoshop.
+--------------------------------------------------------------------------------
+--- Block 28 (ID: b28) ---
+Page: 2
+Font Size: 12.14
+BBox: [89.94, 103.37, 480.37, 134.06]
+Text:
+• Adobe Photoshop is a raster-graphics editor (with signiﬁcant vector graphics func Ɵonality).
+--------------------------------------------------------------------------------
+--- Block 29 (ID: b29) ---
+Page: 2
+Font Size: 11.49
+BBox: [125.94, 132.71, 490.39, 152.49]
+Text:
+o Adobe Photoshop Lightroom is a photo processor and image organizer.
+--------------------------------------------------------------------------------
+--- Block 30 (ID: b30) ---
+Page: 2
+Font Size: 12.08
+BBox: [89.94, 147.35, 538.33, 178.04]
+Text:
+• Adobe Premiere Pro is a real- Ɵme, Ɵmeline -based video edi Ɵng soŌware applicaƟon. Its related applica Ɵons are:
+--------------------------------------------------------------------------------
+--- Block 31 (ID: b31) ---
+Page: 2
+Font Size: 11.49
+BBox: [125.94, 176.63, 391.39, 196.41]
+Text:
+o Adobe Media Encoder, a tool to output video ﬁles.
+--------------------------------------------------------------------------------
+--- Block 32 (ID: b32) ---
+Page: 2
+Font Size: 11.74
+BBox: [125.94, 191.27, 531.01, 221.96]
+Text:
+o Adobe Prelude, a tool for impor Ɵng (ingesƟng), reviewing, and logging tapeless media.
+--------------------------------------------------------------------------------
+--- Block 33 (ID: b33) ---
+Page: 2
+Font Size: 11.74
+BBox: [125.94, 220.55, 538.45, 251.3]
+Text:
+o Adobe SpeedGrade, a tool for performing color correc Ɵons and developing looks for Premiere projects.
+--------------------------------------------------------------------------------
+--- Block 34 (ID: b34) ---
+Page: 2
+Font Size: 16.02
+BBox: [66.0, 262.73, 123.02, 282.29]
+Text:
+Ar Ɵfacts
+--------------------------------------------------------------------------------
+--- Block 35 (ID: b35) ---
+Page: 2
+Font Size: 12.0
+BBox: [66.0, 281.39, 529.69, 326.72]
+Text:
+According to the PDF/UA ISO standard, content that does not represent meaningful content, or appears as a background, shall be tagged as an ar Ɵfact. Examples of such content include decoraƟve images or line spaces.
+--------------------------------------------------------------------------------
+--- Block 36 (ID: b36) ---
+Page: 2
+Font Size: 12.0
+BBox: [66.0, 340.01, 505.63, 370.7]
+Text:
+Addi Ɵonally, because they are not considered real content, arƟfacts are not present in the structure tree (or in Adobe Acrobat ’s Tag Tree).
+--------------------------------------------------------------------------------
+--- Block 37 (ID: b37) ---
+Page: 2
+Font Size: 12.0
+BBox: [66.0, 383.93, 541.45, 429.26]
+Text:
+One common error in a Word document is to use blank lines to create space between paragraphs instead of using paragraph spacing. This may create the desired visual eﬀect but, unless the blank line is tagged as an ar Ɵfact, it may be read by the screen reader as “blank line”.
+--------------------------------------------------------------------------------
+--- Block 38 (ID: b38) ---
+Page: 2
+Font Size: 12.0
+BBox: [66.0, 442.55, 546.67, 517.16]
+Text:
+Another element that the author may decide to tag as an ar Ɵfact is an image that has a capƟon. ParƟcularly if the capƟon contains all the relevant informaƟon about the image in context in the document. Adding alt text to this image would create redundant informaƟon for the screen reader and not tagging it as an arƟfact may confuse the user as the screen reader will indicate “image” but with not associated alt text.
+--------------------------------------------------------------------------------
+--- Block 39 (ID: b39) ---
+Page: 2
+Font Size: 12.0
+BBox: [66.0, 638.27, 243.43, 653.89]
+Text:
+Figure 1: My dog with his goofy grin
+--------------------------------------------------------------------------------
+--- Block 40 (ID: b42) ---
+Page: 3
+Font Size: 12.0
+BBox: [66.0, 74.09, 258.79, 89.71]
+Text:
+Figure 2: A new neighbor comes to visit
+--------------------------------------------------------------------------------
+--- Block 41 (ID: b43) ---
+Page: 3
+Font Size: 16.02
+BBox: [66.0, 116.27, 109.57, 135.83]
+Text:
+Tables
+--------------------------------------------------------------------------------
+--- Block 42 (ID: b44) ---
+Page: 3
+Font Size: 12.0
+BBox: [66.0, 134.93, 529.87, 194.9]
+Text:
+It is possible when authoring tables in Word to indicate the column and row headers for simple tables. Depending upon the method of conversion the correct <TH> tag (table header) may be generated. However there is likely manual clean up to do for table accessibility, par Ɵcularly for more complex tables.
+--------------------------------------------------------------------------------
+--- Block 43 (ID: b45) ---
+Page: 3
+Font Size: 13.02
+BBox: [66.0, 200.36, 134.41, 216.26]
+Text:
+Simple Table
+--------------------------------------------------------------------------------
+--- Block 44 (ID: b46) ---
+Page: 3
+Font Size: 12.0
+BBox: [66.0, 215.39, 230.53, 231.44]
+Text:
+Vehicles Sold by Model and Color
+--------------------------------------------------------------------------------
+--- Block 45 (ID: b47) ---
+Page: 3
+Font Size: 12.0
+BBox: [73.02, 244.99, 298.63, 306.68]
+Text:
+Color SUVs Sedans Trucks Ruby Red 4 4 5 Midnight Black 7 5 5 Triple Yellow 3 5 7
+--------------------------------------------------------------------------------
+--- Block 46 (ID: b48) ---
+Page: 3
+Font Size: 13.02
+BBox: [66.0, 323.3, 144.6, 339.2]
+Text:
+Complex Table
+--------------------------------------------------------------------------------
+--- Block 47 (ID: b49) ---
+Page: 3
+Font Size: 12.0
+BBox: [66.0, 338.27, 174.49, 354.32]
+Text:
+Sales Results for 2015
+--------------------------------------------------------------------------------
+--- Block 48 (ID: b50) ---
+Page: 3
+Font Size: 11.57
+BBox: [73.02, 368.09, 534.85, 459.38]
+Text:
+Salesperson 1 st Quarter 2015 2 nd Quarter 2015 3 rd Quarter 2015 4 th Quarter 2015 Annual Total Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Susan 135 250 235 200 250 235 245 175 225 250 175 125 2500 Bill 175 275 250 225 235 210 200 150 200 275 250 175 2620 Jeﬀ 100 150 175 200 225 250 200 175 200 250 200 150 2275
+--------------------------------------------------------------------------------
+--- Block 49 (ID: b51) ---
+Page: 3
+Font Size: 12.0
+BBox: [66.0, 487.79, 155.29, 518.48]
+Text:
+Images Photos of Sunsets
+--------------------------------------------------------------------------------
+--- Block 50 (ID: b56) ---
+Page: 4
+Font Size: 16.02
+BBox: [72.0, 98.63, 107.24, 118.19]
+Text:
+Links
+--------------------------------------------------------------------------------
+--- Block 51 (ID: b57) ---
+Page: 4
+Font Size: 12.0
+BBox: [72.0, 117.29, 540.43, 206.54]
+Text:
+There are three ways in which links are indicated within a document. Using the full URL, using an abbreviated URL, and embedding the link the text of the document (preferred). Each approach presents unique challenges in making a PDF accessible to the screen reader user. Embedding the link in the text of the document is the best approach as it provides the most readable and understandable form of the link. The following sentences demonstrate three ways to add a hyperlink to a document:
+--------------------------------------------------------------------------------
+--- Block 52 (ID: b58) ---
+Page: 4
+Font Size: 13.02
+BBox: [72.0, 222.68, 184.08, 238.58]
+Text:
+Embedded Hyperlink
+--------------------------------------------------------------------------------
+--- Block 53 (ID: b59) ---
+Page: 4
+Font Size: 12.0
+BBox: [72.0, 237.65, 526.33, 253.7]
+Text:
+Check out our Adobe accessibility website for more informa Ɵon about accessibility at Adobe.
+--------------------------------------------------------------------------------
+--- Block 54 (ID: b60) ---
+Page: 4
+Font Size: 13.02
+BBox: [72.0, 269.9, 152.95, 285.8]
+Text:
+Shortened URL
+--------------------------------------------------------------------------------
+--- Block 55 (ID: b61) ---
+Page: 4
+Font Size: 12.0
+BBox: [72.0, 284.87, 389.29, 300.92]
+Text:
+For more informa Ɵon on accessibility at Adobe click on the link, .
+--------------------------------------------------------------------------------
+--- Block 56 (ID: b62) ---
+Page: 4
+Font Size: 13.02
+BBox: [72.0, 317.06, 117.0, 332.96]
+Text:
+Full URL
+--------------------------------------------------------------------------------
+--- Block 57 (ID: b63) ---
+Page: 4
+Font Size: 12.0
+BBox: [72.0, 332.03, 484.87, 348.08]
+Text:
+Go to htp://www.adobe.com/accessibility for more informa Ɵon Adobe accessibility.
+--------------------------------------------------------------------------------
+--- Block 58 (ID: b64) ---
+Page: 4
+Font Size: 12.0
+BBox: [72.0, 361.31, 524.65, 392.0]
+Text:
+A correctly tagged link has the <Link> tag, text associated with the link, and a Link – OBJR tag (the order of the last two is irrelevant.
+--------------------------------------------------------------------------------
+--- Block 59 (ID: b65) ---
+Page: 4
+Font Size: 12.0
+BBox: [108.0, 489.47, 480.37, 505.09]
+Text:
+Figure 1: Link tagged in the order of <Link> tag, link text, and Link - OBJR tag
+--------------------------------------------------------------------------------
+--- Block 60 (ID: b66) ---
+Page: 4
+Font Size: 12.0
+BBox: [108.0, 621.23, 483.49, 636.85]
+Text:
+Figure 2:: Link tagged in the order of <Link> tag, Link - OBJR tag, and link text
+--------------------------------------------------------------------------------
