@@ -158,7 +158,7 @@ Create a `.env` file in the project root if you wish to run live Gemini AI API c
 ```ini
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
-> **Note:** The engine includes a complete offline response cache (`ai_cache/`) and rule-based heuristic fallback. An API key is **not** required for standard remediation and testing.
+> **Note:** The engine includes rule-based heuristic fallback classification. An API key is **not** required for standard remediation and testing.
 
 <br/>
 
@@ -243,7 +243,6 @@ Accessibility/
 │       ├── hero_banner.svg             # Main project showcase vector banner
 │       ├── architecture_flow.svg       # End-to-end 6-stage pipeline architecture
 │       └── compliance_scorecard.svg    # 19-check compliance scorecard visual
-├── ai_cache/                           # Pre-computed classification cache (offline runs)
 ├── main.py                             # Main application orchestrator & CLI entrypoint
 ├── pdf_extractor.py                    # Multi-layer content, table, link & font extractor
 ├── pre_ai_processor.py                 # Layout heuristics & semantic block chunking
